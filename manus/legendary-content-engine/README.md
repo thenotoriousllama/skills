@@ -2,7 +2,7 @@
 
 A comprehensive, open-source content generation skill for Manus. This skill transforms Manus into a dedicated content engine that produces marketing copy, social media posts, email sequences, and AI generation prompts (images and video) that perfectly match your brand's voice and visual identity.
 
-![Content Pipeline](images/content-pipeline.png)
+![Content Pipeline](source/images/content-pipeline.png)
 
 ## What This Skill Does
 
@@ -13,19 +13,19 @@ The Legendary Content Engine provides Manus with a structured framework for crea
 - **Visual Identity**: Strict guidelines for image and video generation prompts.
 - **Platform Adaptation**: Specific rules for Facebook, LinkedIn, Instagram, and TikTok.
 
-![Architecture](images/architecture.png)
+![Architecture](source/images/architecture.png)
 
 ## How It Works: The Progressive Disclosure Model
 
 This skill uses a "progressive disclosure" architecture to manage context window limits. The main `SKILL.md` file contains the core routing logic and voice rules. When you ask Manus to create specific content, it reads only the relevant reference guide for that task.
 
-![Folder Structure](images/folder-structure.png)
+![Folder Structure](source/images/folder-structure.png)
 
 ## Installation and Personalization
 
 This skill is designed to be personalized with your specific brand information before use.
 
-![Personalization Workflow](images/personalization-workflow.png)
+![Personalization Workflow](source/images/personalization-workflow.png)
 
 ### Step 1: Download and Extract
 Download the `legendary-content-engine.zip` file and extract it to your local machine.
@@ -106,4 +106,4 @@ Connect the HighLevel (GHL) MCP server to allow Manus to draft content and sched
 | `ugc-testimonial-guide.md` | Social proof curation | Formatting client stories |
 
 ---
-*Created for the Manus AI Agent Ecosystem.*
+*Created for the Manus AI Agent Ecosystem by Legend Mario Aldayuz.*
